@@ -1,0 +1,594 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0 auto;
+    background-color: black;
+}
+/*Menu abaixo*/
+div.menu{
+    width:100%;
+    background-color: #fec12b;
+    display:flex;
+    position: sticky;
+    top:0;
+    z-index: 10000000000000;
+ 
+}
+
+div.logo{
+    float:left;
+    height: 100%;
+    width:10vw;
+    position: absolute;
+    margin-left: 3vw;
+}
+
+div.logo img{
+  
+  bottom: 0;
+  height: 100%;
+
+}
+
+div.arruma{
+    height:100%;
+    margin:0 auto;
+    display:flex;
+    background-color: #fec12b;
+}
+
+div.arruma  a{
+	display:block;
+    padding: 0.3vw 2vw;
+	float:left;
+	text-decoration:none;
+	font-family:tahoma;
+	font-size:1.5vw;
+	color:black;
+	transition:color 0.5s;
+    transition:background-color linear 0.33s;
+    text-align: center;
+}
+
+div.menu ol{
+    padding:0;
+    list-style-type:none;
+    height: 100%;
+}
+
+div.arruma ol a:hover{
+    color:#DBA901;
+    background-color:#141414;
+    
+}
+
+div.traduzir{
+position: absolute;
+top: 15%;
+right: 2vw;
+height: 100%;
+}
+
+div.traduzir i{
+    color: black;
+    font-size: 3vw;
+}
+
+/*A baixo foto grande*/
+div.imagemgg{
+    background-image: url("kk.jpg");
+    background-size:cover;
+    width:100%;
+    height:50vw;
+    position: relative;
+}
+
+div.tudoimg{
+    height: 100%;
+    width: 100%;
+}
+
+div.dialeto {
+    width: 100%;
+    height: 30vh;
+    background:rgb(0, 0, 0) transparent;
+    background:rgba(0, 0, 0, 0.5);
+    position: absolute;
+    height: 30vw;
+    bottom: 0;
+}
+
+div.frase{
+    width: 100%;
+
+}
+
+div.subfrase{
+    width: 100%;
+
+}
+
+div.frase h3{
+    text-align: center;
+    margin: 0 auto;
+    font-size: 13vw;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-shadow:2px 2px black ;
+    transition: 1.5s ease-out ;
+}
+
+div.subfrase h6{
+    margin: 0 auto;
+    text-align: center;
+    font-size:3vw;
+    color:rgb(190, 190, 190);
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px black;
+    transition: 1.5s ease ;
+}
+
+div.icone{
+    margin: 0 auto;
+    width: 20%;
+    display: flex;
+    
+
+}
+
+div.icone a i {
+    font-size:3.5vw;
+    color:white;
+    float:right;
+    position:static; 
+    
+}
+
+div.icone a{
+    float:right;
+    text-decoration:none;
+    display: block;
+    margin: 0 auto; 
+    
+}
+
+div.ic{
+    margin: 1vw auto;
+    float: right;
+    height:4vw;
+    transition: linear 0.2s;
+}
+
+div.arrumaicone{
+    margin:4vw auto;
+}
+
+div.ic:hover{
+    border-bottom: 2px solid #fec12b;   
+}
+
+/*Mensagem abaixo*/
+div.frasechamativa{
+    width: 100%;
+    margin-top:3vw;
+    height: 15vw;
+}
+
+div.frasechamativa h3 {
+    font-size: 2.5vw;
+    margin: -0.5vw auto;
+    margin-bottom:1vw ;
+    text-align: center;
+    color:rgb(221, 221, 221);
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px black;
+}
+
+div.frescura{
+    height: 0.8vw;
+    width: 5vw;
+    background-color: #fec12b;
+    border-radius: 2vw;
+    margin:2vw auto;
+    transition:width 0.3s ;
+    position: relative;
+}
+
+div.arrumafrase{
+    position: absolute;
+    background-color: rgb(12, 12, 12);
+    border-radius:0.7vw;
+    width: 100%;
+}
+
+div.arrumafrase:hover > .frescura{
+    width: 7vw;
+}
+
+div.num{
+    position: relative;
+}
+/*Capacidade/Experiencia*/
+
+div.ab1{
+    width:100% ;
+    height: 50vw;
+    display: flex;
+}
+
+div.ab11{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(32, 30, 31);
+}
+
+div.ab12{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(240, 193, 38);
+}
+
+div.ab11 h3{
+    text-align: center;
+    margin: 4vw auto;
+    font-size: 6vw;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;  
+}
+
+div.ab11 p{
+    text-align: center;
+    font-size: 1.5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: -2vw auto;
+    margin-bottom:8vw;
+}
+
+div.ab12 h3{
+    text-align: center;
+    margin: 4vw auto;
+    font-size: 6vw;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;   
+}
+
+div.ab12 p{
+    text-align: center;
+    font-size: 1.5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin: -2vw auto;
+}
+
+div.arrumaab{
+    height: 18vw;
+}
+
+div.box1{
+    position: relative;
+    height:25vw;
+    width: 90%;
+    overflow: hidden;
+    margin: 0vw auto;
+    background-color: rgb(12, 12, 12);
+}
+div.imagezi1{
+    width: 100%;
+    height: 100%;
+    background: url("oficinatst.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: .5s;
+    overflow: hidden;
+}
+
+div.imagezi2{
+    width: 100%;
+    height: 100%;
+    background: url("aps.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: .5s;
+    overflow: hidden;
+}
+
+div.imagezi1:hover{
+    transform: scale(1.05);
+	opacity:.8
+}
+
+div.imagezi2:hover{
+    transform: scale(1.05);
+	opacity:.8
+}
+
+div.box2{
+    position: relative;
+    height:25vw;
+    width: 90%;
+    overflow: hidden;
+    margin: 0vw auto;
+    background-color: rgb(12, 12, 12);
+}
+/*Frase nos escolher abaixo*/
+div.escolhe{
+    width: 100%;
+    height: 30vw;
+    background-color: rgb(12, 12, 12);
+    position: relative;
+    margin: 4vw auto;
+    border-radius: 1vw;
+}
+
+div.arrumaescl {
+    width: 100%;
+    position: relative;
+}
+
+div.conserta{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+div.escolhe h3{
+    text-align: center;
+    margin: 3vw auto;
+    font-size: 6vw;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white; 
+}
+
+div.escolhe h2{
+    text-align: center;
+    margin: 3vw auto;
+    font-size: 5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white; 
+}
+
+div.iconescl{
+    width: 100%;
+    position: absolute;
+    display: flex;
+}
+
+div.ic2{
+    margin: 0 auto;
+    width: 8vw;
+}
+
+div.ic2 i {
+    color:rgb(216, 216, 216);
+    text-align: center;
+    font-size:7vw;
+    margin: 0 auto;
+}
+
+div.ic21{
+    margin: 0 auto;
+    width: 10vw;
+}
+
+div.ic21 i {
+    color:rgb(216, 216, 216);
+    text-align: center;
+    font-size:7vw;
+    margin: 0 auto;
+}
+
+div.ic22{
+    margin: 0 auto;
+    width: 6vw;
+}
+
+div.ic22 i{
+    color:rgb(216, 216, 216);
+    text-align: center;
+    font-size:7vw;
+    margin: 0 auto;
+}
+
+div.arrumaic2 h3{
+    font-size: 2.3vw;
+    text-align: center;
+}
+
+div.arrumafrsc{
+    width: 100%;
+}
+
+div.frsc{
+    width: 2vw;
+    height: 0.7vw;
+    background-color: #fec12b;
+    margin: -2vw auto;
+    border-radius: 2vw;
+    transition: width 0.5s; 
+}
+
+div.arrumaic2:hover > .arrumafrsc .frsc {
+    width: 5vw;
+}
+
+div.arrumaic2{
+    margin: 0 auto;
+}
+
+/* video */
+div.video{
+    margin:5vw auto ;
+    width: 100%;
+    border-radius:0.7vw;
+    background-color: rgb(12, 12, 12);
+}
+div.arrumavideo {
+    margin: 0 auto;
+    width: 50vw;
+}
+
+div.video video{
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    width: 50vw;
+}
+
+/*Rodape*/
+
+footer{
+    padding: 0 2vw 2vw 2vw;
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(12, 12, 12);
+    position: absolute;
+}
+
+footer i{
+    margin-right: 5px;
+}
+
+footer p,a{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer div.esquerda{
+    float: left;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+footer div.arrmesquerda{
+    position: relative;
+    height: 100%;
+
+}
+
+div.logordp{
+    width: 5vw;
+    height: 5vw;
+    margin-left: -3vw;
+}
+
+div.logordp img{
+    width:10vw;
+    margin-left:6vw;
+}
+
+div.mnrdp{
+    display: flex;
+    flex-direction: row;
+    margin: 0vw auto;
+    white-space: nowrap;
+    margin-top: 2vw;
+    margin-bottom: 1vw;
+}
+
+div.mnrdp p a{
+    text-decoration: none;
+    font-size: 1.1vw;
+    color: white;
+    text-align: center;
+}
+
+div.mnrdp p{
+    color: white;
+    font-size:1.3vw;
+}
+
+footer div.arrumacpr{
+    height: 1vw;
+    margin: -2.3vw auto;
+    position: absolute;
+}
+
+footer div.esquerda .arrumacpr p{
+    font-size: 1vw;
+    color: rgb(167, 167, 167);
+
+}
+
+footer div.meio{
+    width: 33%;
+    float: right;
+    margin-top:1vw;
+
+}
+
+footer div.meio div{
+    margin:0 auto;
+    margin-left: 7vw;
+}
+
+footer div.meio i{
+    background: rgb(37, 36, 36);
+	color: #ffffff;
+	font-size: 1.2vw;
+	width: 2.6vw;
+	text-align: center;
+	line-height: 2.8vw;
+	margin: 0.8vw 1vw;
+    vertical-align: middle;
+    border-radius: 50%;
+}
+
+footer div.meio p{
+    display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+	font-size:1.1vw;
+}
+
+footer div.meio p span{
+    display:block;
+	font-weight: normal;
+	font-size:0.95vw;
+	line-height:2;
+}
+
+footer div.direita{
+    float: right;
+    width: 33%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer div.social{
+    margin-right: 5vw;
+    margin-top: 2vw;
+}
+
+footer div.direita i{
+    color: #fff;
+    font-size: 1.5vw;
+    margin: 0 auto;
+}
+
+footer div.direita a{
+    float:right;
+    text-decoration:none;
+    margin: 0 auto;
+    margin-right: 2vw;
+}
+
+footer .sobe a{
+    position: absolute;
+    right: 1vw;
+    bottom: 1vw;
+    color: #DBA901;
+    font-size: 2vw;
+}
+
+footer .sobe a i{
+    font-size: 2vw;
+}
