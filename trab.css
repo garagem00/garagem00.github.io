@@ -103,7 +103,7 @@ div.conteudo{
     position: relative;
     border-radius: 1vw;
     margin: 3vw auto;
-    margin-bottom: 1vw;
+    margin-bottom: 4vw;
     height: 100vw;
 }
 
@@ -225,8 +225,6 @@ footer{
     flex-direction: row;
     background-color: rgb(12, 12, 12);
     position: absolute;
-    margin-top: 2vw;
-    z-index: 2;
 }
 
 footer i{
@@ -243,6 +241,7 @@ footer div.esquerda{
     display: flex;
     flex-direction: column;
     position: relative;
+    margin-left: 1vw;
 }
 
 footer div.arrmesquerda{
@@ -299,7 +298,6 @@ footer div.meio{
     width: 33%;
     float: right;
     margin-top:1vw;
-
 }
 
 footer div.meio div{
@@ -324,14 +322,8 @@ footer div.meio p{
 	color: #ffffff;
 	vertical-align: middle;
 	margin:0;
-	font-size:1.1vw;
-}
-
-footer div.meio p span{
-    display:block;
-	font-weight: normal;
-	font-size:0.95vw;
-	line-height:2;
+    font-size:1.1vw;
+    line-height: 1.5vw;
 }
 
 footer div.direita{
@@ -371,4 +363,3 @@ footer .sobe a{
 footer .sobe a i{
     font-size: 2vw;
 }
-

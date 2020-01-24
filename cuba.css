@@ -97,45 +97,6 @@ div.frsctt:hover > div.stik{
 }
 
 /* aaaaaaaaaaaaaaa */
-div.revbas{
-    width: 100%;
-    height: 10vw;
-    background: rgb(12, 12, 12);
-    border-radius: 1vw;
-    margin-top: 2vw;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-}
-
-div.revbas .ab{
-    position: absolute;
-    width: 100%;
-}
-
-div.revbas h3 {
-    font-size: 6vw;
-    margin: 0 auto;
-    text-align: center;
-    color:rgb(255, 255, 255);
-    font-family: Arial, Helvetica, sans-serif;
-    text-shadow: 1px 1px black;
-}
-
-div.stars {
-    width: fit-content;
-    margin: 0 auto;
-}
-
-div.revbas i{
-    font-size: 3vw;
-    margin: 0 auto;
-    color: rgb(240, 193, 38);
-    padding: 0;
-    margin: 0 auto;
-    text-align: center;
-}
-
 
 div.bas{
     width: 100%;
@@ -145,6 +106,7 @@ div.bas{
     border-radius: 0.8vw;
     display: flex;
     flex-direction: row;
+    margin-bottom: 4vw;
 }
 
 div.vidbas{
@@ -217,7 +179,6 @@ footer{
     flex-direction: row;
     background-color: rgb(12, 12, 12);
     position: absolute;
-    z-index: 2;
 }
 
 footer i{
@@ -234,6 +195,7 @@ footer div.esquerda{
     display: flex;
     flex-direction: column;
     position: relative;
+    margin-left: 1vw;
 }
 
 footer div.arrmesquerda{
@@ -290,7 +252,6 @@ footer div.meio{
     width: 33%;
     float: right;
     margin-top:1vw;
-
 }
 
 footer div.meio div{
@@ -315,14 +276,8 @@ footer div.meio p{
 	color: #ffffff;
 	vertical-align: middle;
 	margin:0;
-	font-size:1.1vw;
-}
-
-footer div.meio p span{
-    display:block;
-	font-weight: normal;
-	font-size:0.95vw;
-	line-height:2;
+    font-size:1.1vw;
+    line-height: 1.5vw;
 }
 
 footer div.direita{
@@ -362,4 +317,3 @@ footer .sobe a{
 footer .sobe a i{
     font-size: 2vw;
 }
-

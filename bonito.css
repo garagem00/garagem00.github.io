@@ -64,21 +64,9 @@ div.arruma ol a:hover{
     
 }
 
-div.traduzir{
-position: absolute;
-top: 15%;
-right: 2vw;
-height: 100%;
-}
-
-div.traduzir i{
-    color: black;
-    font-size: 3vw;
-}
-
 /*A baixo foto grande*/
 div.imagemgg{
-    background-image: url("kk.jpg");
+    background-image: url("ftgrande2.jpg");
     background-size:cover;
     width:100%;
     height:50vw;
@@ -278,7 +266,7 @@ div.box1{
 div.imagezi1{
     width: 100%;
     height: 100%;
-    background: url("oficinatst.jpg");
+    background: url("garagem1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     transition: .5s;
@@ -288,7 +276,7 @@ div.imagezi1{
 div.imagezi2{
     width: 100%;
     height: 100%;
-    background: url("aps.jpeg");
+    background: url("garagem2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     transition: .5s;
@@ -418,23 +406,6 @@ div.arrumaic2{
     margin: 0 auto;
 }
 
-/* video */
-div.video{
-    margin:5vw auto ;
-    width: 100%;
-    border-radius:0.7vw;
-    background-color: rgb(12, 12, 12);
-}
-div.arrumavideo {
-    margin: 0 auto;
-    width: 50vw;
-}
-
-div.video video{
-    margin-top: 2vw;
-    margin-bottom: 2vw;
-    width: 50vw;
-}
 
 /*Rodape*/
 
@@ -464,6 +435,7 @@ footer div.esquerda{
     display: flex;
     flex-direction: column;
     position: relative;
+    margin-left: 1vw;
 }
 
 footer div.arrmesquerda{
@@ -520,7 +492,6 @@ footer div.meio{
     width: 33%;
     float: right;
     margin-top:1vw;
-
 }
 
 footer div.meio div{
@@ -545,14 +516,8 @@ footer div.meio p{
 	color: #ffffff;
 	vertical-align: middle;
 	margin:0;
-	font-size:1.1vw;
-}
-
-footer div.meio p span{
-    display:block;
-	font-weight: normal;
-	font-size:0.95vw;
-	line-height:2;
+    font-size:1.1vw;
+    line-height: 1.5vw;
 }
 
 footer div.direita{

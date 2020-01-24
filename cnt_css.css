@@ -101,22 +101,30 @@ div.frsctt:hover > div.stik{
 
 div.ctt{
     width: 95%;
-    height: 30vw;
+    height: 25vw;
     background: rgb(32, 30, 31);
     margin: 3vw auto;
     border-radius: 1vw;
     display: flex;
     flex-direction: row;
+    margin-bottom: 4vw;
 }
 
 div.ctt-1{
     width: 33%;
     height: 25vw;
-    margin-left: 3vw;
+    background-image: url(aps2.jpg);
+    border-top-left-radius: 1vw;
+    border-bottom-left-radius: 1vw;
 }
 
-div.ctt-1 iframe{
-    margin-top: 2.5vw;
+div.ctt-1 p{
+    font-size: 3.5vw;
+    color:  #DBA901;
+    text-align: center;
+    font-family: tahoma;
+    margin-top: 5vw;
+    text-shadow: #141414 2px 2px 2px
 }
 
 div.ctt-2{
@@ -124,7 +132,6 @@ div.ctt-2{
     width: 25%;
     margin-top: 2.5vw;
     margin-left: 4vw;
-
 }
 
 div.tlf div{
@@ -199,6 +206,7 @@ div.ctt-2 h3{
 div.ctt-2 p{
     color: rgb(219, 219, 219);
     font-family: tahoma;
+    line-height: 2vw;
 }
 
 div.ctt-3 {
@@ -207,6 +215,10 @@ div.ctt-3 {
     margin-top:2.5vw;
     margin-right: 5vw;
     margin-left: 2vw;
+}
+
+div.ctt-3 a{
+    text-decoration: none;
 }
 
 div.ctt-3 h3{
@@ -282,6 +294,7 @@ footer div.esquerda{
     display: flex;
     flex-direction: column;
     position: relative;
+    margin-left: 1vw;
 }
 
 footer div.arrmesquerda{
@@ -338,7 +351,6 @@ footer div.meio{
     width: 33%;
     float: right;
     margin-top:1vw;
-
 }
 
 footer div.meio div{
@@ -363,14 +375,8 @@ footer div.meio p{
 	color: #ffffff;
 	vertical-align: middle;
 	margin:0;
-	font-size:1.1vw;
-}
-
-footer div.meio p span{
-    display:block;
-	font-weight: normal;
-	font-size:0.95vw;
-	line-height:2;
+    font-size:1.1vw;
+    line-height: 1.5vw;
 }
 
 footer div.direita{
